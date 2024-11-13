@@ -1,0 +1,60 @@
+body {
+    background-color: #d5f5fd; 
+    margin: 0; 
+    padding: 0; 
+}
+
+header {
+    background-color: rgb(163, 209, 252); 
+    padding: 5px; 
+    border-radius: 5px; 
+    max-width: 1500px; 
+    margin: 0 auto;
+    text-align: center;     
+}
+
+header nav ul {
+    list-style-type: none; 
+    padding: 0;
+    margin: 0;
+    display: flex; /* Hacer que los elementos se alineen en una fila */
+    justify-content: space-around;
+    font-weight: bold;
+}
+
+header nav ul li {
+    margin-right: 20px; 
+}
+
+header nav ul li a {
+    text-decoration: underline; 
+    color: black; 
+}
+
+header nav ul li a:hover {
+    color: blue; 
+}
+
+form #nombre{
+    color:white;
+    background-color: blue;
+}
+form #edad{
+    color:white;
+    background-color: crimson;
+}
+
+form #email{
+    color:black;
+    background-color: seashell;
+}
+
+form #telefono{
+    color:white;
+    background-color: blueviolet;
+}
+
+form #heroe{
+    color:white;
+    background-color: goldenrod;
+}

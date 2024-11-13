@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    {% load static %}
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Indice</title>
+    <link rel="icon" href="https://w7.pngwing.com/pngs/870/61/png-transparent-comics-comic-book-others-comics-comic-book-logo-thumbnail.png" type="image/png">
+    <link rel="stylesheet" href="{% static 'css/index.css' %}">
+    <script src="{% static 'js/apps.js' %}" defer></script> 
+
+    <meta name="keywords" content="Superheroés, historia, importancia, superman, x-men">
+    <meta name="description" content="En este sitio encontraras la importancia y el valor que han tenido los superhéroes en nuestra sociedad a lo largo de estos años, desde su creación hasta la actualidad.">
+    <meta name ="author" content="DHG">
+
+    <style>
+        .info2{
+            background-color: lightblue;
+            justify-content: space-around;
+        }
+    </style>
+    
+    <style>
+        .info3{
+            background-color: lightsalmon;
+            justify-content: space-around;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <center>
+            <h1 style="background-color: crimson;">Importancia de los Super Héroes en la Historia</h1>
+        </center>
+    </header>
+    <p hidden>Este parrafo no se vera en la página web, solo es de prueba!</p>
+        <h2>¡Explora!</h2>
+        <nav>
+            <ul>
+                <li><a href="{% url 'pagina2' %}">Impacto en otros medios</a></li>
+                <li><a href="{% url 'pagina3' %}">Los héroes más populares del Sector 2814!</a></li>
+                <li><a href="{% url 'pagina4' %}">Los héroes más queridos en el multiverso!</a></li>
+                <li><a href="{% url 'pagina5' %}">¿Cuál es tu preferido?</a></li>
+                <li><a href="{% url 'form' %}">Formulario</a></li>                
+            </ul>
+        </nav>
+
+
+    <main>
+            <head><h1>Los SuperHéroes en nuestras vidas</h1></head>
+            <article>
+            <!--Aqui va todo lo de la página 1-->
+                <p class="info1">Los superhéroes han tenido un papel crucial en la cultura popular, representando ideales como la justicia o la valentía. A lo largo de la historia, estos han servido como símbolos de esperanza y resiliencia, inspirando a las personas a enfrentar desafíos con determinación y moralidad. En tiempos de crisis, como guerras o desastres, los superhéroes reflejan la necesidad de figuras fuertes que defiendan a los vulnerables y luchen contra la injusticia. Muestra de ello fueron la creación de Superman durante la Guerra fría y del Capitán América en la Segunda Guerra Mundial.</p>
+    <center>
+        <figure>
+            <img src="https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2014/08/20/14085426316861.png" height="300"> <figcaption><b>Figura 1.</b> Primera aparición de Superman, <mark><i>Action Comics #1</i></mark></figcaption>
+        </figure>
+    </center>
+        </article>
+        <article>
+            <p class="info2">Además, los superhéroes son un reflejo de las preocupaciones sociales y políticas de cada época. Desde la lucha contra tiranías hasta la representación de diversidad e inclusión, sus historias abordan temas relevantes, permitiendo que la audiencia reflexione sobre los problemas del mundo real a través de aventuras fantásticas. Estos personajes evolucionan junto con la sociedad, adaptándose para ser representativos de los valores y conflictos contemporáneos.</p>
+
+            <center>
+                <figure>
+                    <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEidhgV7U8B6sRVX-MntK3Y1cJHJlMghv4vXb7IYZ53mtF232CdrIHJiY_AJqouRqkZJ8JZnBU8Z-A3jmM7YP-QakTGkGow6Ezc-3Ji8vgYGcmswYXw-jFJp1oIbfCq8MN6JxhmVX2J2NbY/s1600/Beast_Jack_kirby.jpg" height="300"><figcaption><b>Figura 2.</b> Primera aparición de los X-Men, <mark><i>The X-Men #1</i></mark></figcaption>
+                </figure>
+            </center>
+        </article>
+        <article>
+            <p class="info3">En la vida cotidiana, los superhéroes también tienen un impacto emocional, inspirando a las personas a superar adversidades y encontrar su propio poder interior. Aunque son ficticios, los ideales que encarnan nos motivan a ser mejores, a luchar por lo correcto y a ayudar a los demás. Nos recuerdan que, aunque no tengamos superpoderes, todos podemos ser héroes en nuestras propias vidas.</p>
+
+            <center>
+                <figure>
+                    <img src="https://i.pinimg.com/originals/0c/bc/05/0cbc05d9d582948e50440d67b8e08dbf.jpg"    alt="Dibujo perteneciente al The Amazing Spiderman #36 dedicado al evento del 9-11" height="300"> <figcaption><b>Figura 3.</b> Dibujo del <mark><i>The Amazing Spiderman #36</i></mark></figcaption>
+                </figure>   
+            </center>
+        </article>
+
+    <p>Si te interesa conocer un poco más sobre porque son un reflejo de nuestras preocupaciones sociales puedes ver este video: </p>
+    <center>
+        <video controls src="{% static 'media/videoplayback.mp4' %}">LA EDAD DE ORO: Del Heroísmo a la Propaganda Patriótica</video>
+</center>    
+    </main>
+
+<aside>
+    <p>Si quieres contactarnos para ayudarte a crear tu página web <a href="tel +8110354587">Llamanos &phone;</a> <br>O puedes mandarnos un correo a: <address>WebCreators@hotmail.com</address></p>
+</aside>
+
+    <footer>
+        <p>Fin del Articulo</p>
+        <hr>
+        <address>
+            <p>Desarrollado por DHG</p>
+            <p>Derechos Reservados &copy;</p>
+        </address>
+    </footer>
+
+</body>
+
+</html>

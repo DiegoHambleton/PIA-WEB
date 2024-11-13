@@ -1,0 +1,56 @@
+body {
+    background-color: #d5f5fd; 
+    margin: 0; 
+    padding: 0; 
+}
+
+h2, nav {
+    background-color: rgb(163, 209, 252); 
+    padding: 5px; 
+    border-radius: 5px; 
+    max-width: 1500px; 
+    margin: 0 auto;
+    text-align: center;     
+}
+
+nav ul {
+    list-style-type: none; 
+    padding: 0;
+    margin: 0;
+    display: flex; /* Hacer que los elementos se alineen en una fila */
+    justify-content: space-around;
+    font-weight: bold;
+}
+
+nav ul li {
+    margin-right: 20px; 
+}
+
+nav ul li a {
+    text-decoration: underline; 
+    color: black; 
+}
+nav ul li a:hover {
+    color: blue; 
+}
+
+body main h1{
+    text-align: center; 
+}
+
+.info1{
+    color: rgb(0, 43, 71);
+}
+
+p.info2{
+    color: purple;
+}
+
+body header h1, img{
+    border: 5px solid black;
+}
+
+p.info1{
+    background-color: khaki;
+    justify-content: space-around;
+}
